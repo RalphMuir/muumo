@@ -1,0 +1,116 @@
+body {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-size:cover;
+	background-attachment: fixed;
+	color:#fff;
+}
+
+a{
+	color:#fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#f9ffc1;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#menu{
+	margin-top:30px;
+	background-color: rgba(0,0,0, .6);
+}
+
+#menu nav {
+	background-color: rgba(0,0,0, .6);
+}
+
+#menu nav ul{
+	margin:0;
+	padding-left:0px;
+}
+#menu nav ul li{
+	display: inline-block;
+}
+#menu nav ul li a{
+	display: block;
+	padding:10px 20px;
+}
+#menu nav ul li.active a{
+	color:#fcef98;
+}
+
+
+
+#main{
+	margin-top:20px;
+}
+
+.box{
+	background-color: rgba(0,0,0, .6);
+	padding:20px;
+}
+
+.index_info{
+	text-align:center;
+}
+.index_info h1{
+	font-size:36pt;
+}
+
+.box .video{
+	margin-bottom:60px;
+}
+
+.personal{
+	margin-bottom: 50px;
+}
+
+.left{
+	float: left;
+}
+.photo{
+	width: 160px;
+}
+.photo img{
+	width: 100%;
+	border-radius: 50%;
+}
+.News_info{
+	width:804px;
+	padding-left:20px;
+}
+.News_info p{
+	font-size: 18px;
+}
+.News_info p.name_id{
+	margin-top:0px;
+	font-size: 25px;
+}
+
+.News_info nav ul{
+	margin:0;
+	padding-left:0px;
+}
+.News_info nav ul li{
+	display: inline-block;
+}
+.News_info nav ul li a{
+	display: block;
+	padding-right:20px;
+}
+.News_info nav ul li a img{
+	vertical-align: middle;
+}
+
+/* clearfix 解決用到float時可能發生的意外情況 */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
